@@ -1,0 +1,21 @@
+title: CV Daniele Fadda
+description: Curriculum Vitae di Daniele Fadda
+baseurl: ""
+#url: https://piazzai.github.io
+
+theme: hacked-jekyll
+
+exclude:
+  - LICENSE
+  - README.md
+  - vendor/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
+
+quotes: values
+newtab: true
