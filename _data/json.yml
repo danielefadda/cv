@@ -11,23 +11,27 @@
     - Communication Design
     - User interface design
   typed: true
+- key: Contact
+  value: daniele.fadda@isti.cnr.it
 - key: CV
   value:
     - key: file
-      value: "cv.pdf"
-      url: /cv.pdf
+      value: "CV_Daniele_Fadda.pdf"
+      url: ./CV_Daniele_Fadda.pdf
     - key: updated
-      value: 2025-03-20
-  url: /cv.pdf
+      value: 2025-03-25
+    - key: CvLanguage
+      value: Italian
 - key: Institution
   value:
     - National Research Council of Italy (CNR)
     - Institute of Information Science and Technologies (ISTI)
     - Knowledge Discovery and Data Mining Lab(KDD)
-- key: Contact
+
+- key: Address
   value:
-    - key: Email
-      value: daniele.fadda@isti.cnr.it
+    - key: Office
+      value: "Via G. Moruzzi, 1 - 56124 Pisa, Italy"
     - key: Phone Office
       value: "+39 050 6213009"
     - key: Building
@@ -38,5 +42,7 @@
   value:
     - value: Isti-page
       url: https://www.isti.cnr.it/en/about/people-detail/554/Daniele_Fadda
+    - value: KDD-lab
+      url: https://kdd.isti.cnr.it/people/fadda-daniele
     - value: GitHub
       url: https://github.com/danielefadda
