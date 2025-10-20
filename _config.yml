@@ -18,3 +18,9 @@ sass:
 
 quotes: values
 newtab: true
+
+color_bg: "black"
+color_punct: "yellow-fadda-punctuation"
+color_key: "yellow-fadda"
+color_value: "yellow-fadda"
+color_hover: "yellow-0"

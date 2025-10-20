@@ -1,11 +1,17 @@
 ---
 ---
 
-$color_bg: #212529;
-$color_punct: #95862a;
-$color_key: #f4dd4d;
-$color_value: #f4dd4d;
-$color_hover: #eeeddf;
+//$color_bg: #212529;
+//$color_punct: #95862a;
+//$color_key: #f4dd4d;
+//$color_value: #f4dd4d;
+//$color_hover: #eeeddf;
+
+$color_bg: var(--oc-{{ site.color_bg | default: 'gray-9' }});
+$color_punct: var(--oc-{{ site.color_punct | default: 'green-9' }});
+$color_key: var(--oc-{{ site.color_key | default: 'green-4' }});
+$color_value: var(--oc-{{ site.color_value | default: 'green-4' }});
+$color_hover: var(--oc-{{ site.color_hover | default: 'green-5' }});
 
 {% case site.lowercase -%}
 {% when 'keys' -%}
