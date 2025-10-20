@@ -1,3 +1,5 @@
 # build settings url
 url: "https://danielefadda.github.io"
 baseurl: "cv"
+
+destination: docs
